@@ -1,0 +1,6 @@
+gnuplot> set title "CS 331: Lab 5 (water seesaw angle vs. time)"
+gnuplot> set xlabel "Time (seconds)"
+gnuplot> set ylabel "Angle (degrees)"
+gnuplot> set output "lab5_plot.ps"
+gnuplot> set terminal postscript
+gnuplot> plot "lab5_formatted" using 1:2 with lines
